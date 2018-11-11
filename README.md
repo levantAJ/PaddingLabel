@@ -2,9 +2,9 @@
   <img src="https://user-images.githubusercontent.com/6329656/48311197-b2c3cc00-e5ce-11e8-974d-57749b36168f.png" title="PaddingLabel logo" width='400' float=left>
 </p>
 
-[![Pod Version](http://img.shields.io/cocoapods/v/PaddingLabel.svg?style=flat)](http://cocoadocs.org/docsets/PaddingLabel/)
-[![Pod Platform](http://img.shields.io/cocoapods/p/PaddingLabel.svg?style=flat)](http://cocoadocs.org/docsets/PaddingLabel/)
-[![Pod License](http://img.shields.io/cocoapods/l/PaddingLabel.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Pod Version](https://cocoapod-badges.herokuapp.com/v/PaddingLabel/badge.png)](http://cocoadocs.org/docsets/PaddingLabel/)
+[![Pod Platform](https://cocoapod-badges.herokuapp.com/p/PaddingLabel/badge.png)](http://cocoadocs.org/docsets/PaddingLabel/)
+[![Pod License](https://cocoapod-badges.herokuapp.com/l/PaddingLabel/badge.png)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 # PaddingLabel
 A label with padding for iOS
