@@ -9,5 +9,5 @@ There is a way to use PaddingLabel in your project:
 #### Installation with CocoaPods
 
 ```
-pod 'PaddingLabel', '1.0.0'
+pod 'PaddingLabel', '1.0'
 ```
