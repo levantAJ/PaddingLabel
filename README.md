@@ -22,7 +22,7 @@ A label with padding for iOS
 
 ## How To Use
 
-- Change class of UILabel in your `storyboard`, `xib` to `PaddingLabel`.
+- Change class of `UILabel` in your `storyboard`, `xib` to `PaddingLabel`.
 - Or programmatically:
 
 ```swift
