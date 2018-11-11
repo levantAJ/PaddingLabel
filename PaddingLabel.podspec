@@ -11,7 +11,7 @@ Label with padding written on Swift 4.2 by levantAJ
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Tai Le' => 'sirlevantai@gmail.com' }
   s.source = { :git => 'https://github.com/levantAJ/PaddingLabel.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
   s.source_files = 'PaddingLabel/PaddingLabel.swift'
  
 end
