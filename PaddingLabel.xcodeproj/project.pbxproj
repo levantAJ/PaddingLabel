@@ -10,6 +10,7 @@
 		33106B9B2197CE1D006D10E8 /* PaddingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33106B912197CE1D006D10E8 /* PaddingLabel.framework */; };
 		33106BA02197CE1D006D10E8 /* PaddingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33106B9F2197CE1D006D10E8 /* PaddingLabelTests.swift */; };
 		33106BA22197CE1D006D10E8 /* PaddingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 33106B942197CE1D006D10E8 /* PaddingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33106BAC2197CE6C006D10E8 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33106BAB2197CE6C006D10E8 /* PaddingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		33106B9A2197CE1D006D10E8 /* PaddingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33106B9F2197CE1D006D10E8 /* PaddingLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabelTests.swift; sourceTree = "<group>"; };
 		33106BA12197CE1D006D10E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33106BAB2197CE6C006D10E8 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				33106B942197CE1D006D10E8 /* PaddingLabel.h */,
+				33106BAB2197CE6C006D10E8 /* PaddingLabel.swift */,
 				33106B952197CE1D006D10E8 /* Info.plist */,
 			);
 			path = PaddingLabel;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					33106B902197CE1D006D10E8 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					33106B992197CE1D006D10E8 = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33106BAC2197CE6C006D10E8 /* PaddingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		33106BA62197CE1D006D10E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.levantAJ.PaddingLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		33106BA72197CE1D006D10E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		33106BA92197CE1D006D10E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaddingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +415,7 @@
 		33106BAA2197CE1D006D10E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaddingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
