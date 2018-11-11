@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://user-images.githubusercontent.com/6329656/48311415-18658780-e5d2-11e8-997b-c8b1b75e9cd7.png" title="PaddingLabel logo" width='400' float=left>
+  <img src="https://user-images.githubusercontent.com/6329656/48311415-18658780-e5d2-11e8-997b-c8b1b75e9cd7.png" title="PaddingLabel logo" width='370' float=left>
 </p>
 
 [![Pod Version](https://cocoapod-badges.herokuapp.com/v/PaddingLabel/badge.png)](http://cocoadocs.org/docsets/PaddingLabel/)
