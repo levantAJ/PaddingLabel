@@ -28,7 +28,7 @@ pod 'PaddingLabel', '1.1'
 
 ### Manually
 
-Manually drag file [PaddingLable.swift](https://github.com/levantAJ/PaddingLabel/blob/master/PaddingLabel/PaddingLabel.swift) to your project. 
+Manually drag file [PaddingLabel.swift](https://github.com/levantAJ/PaddingLabel/blob/master/PaddingLabel/PaddingLabel.swift) to your project. 
 
 
 ### Build Project
