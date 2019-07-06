@@ -45,6 +45,11 @@ community can help you solve it.
 import PaddingLabel
 
 let label = PaddingLabel(frame: CGRect(x: 0, y: 0, width: 500, height: 100))
+label.topInset = 5.0 //by default
+label.bottomInset = 5.0 //by default
+label.leftInset = 7.0 //by default
+label.rightInset = 7.0 //by default
+
 ```
 
 ## Author
