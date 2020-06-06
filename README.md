@@ -23,7 +23,7 @@ There is a way to use PaddingLabel in your project:
 ### Installation with CocoaPods
 
 ```
-pod 'PaddingLabel', '1.1'
+pod 'PaddingLabel', '1.2'
 ```
 
 ### Manually
