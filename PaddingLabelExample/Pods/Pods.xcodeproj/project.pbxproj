@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048D5828BFE08B1B6F499F2F8AB508DA /* Pods-PaddingLabelExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E03E1014A1466E492A3EA3233366A /* Pods-PaddingLabelExampleTests-dummy.m */; };
+		1899001D2C9CAC97EDFB9D843A1A7FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28E4AD730276ECCCA27E85509630BC05 /* Pods-PaddingLabelExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B8F3807AF1F47E940FEB6EDD53FB0F /* Pods-PaddingLabelExample-dummy.m */; };
+		3E5298FF9E3FA8B7E21AFE2EA0DD0611 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C9CFC398C532BA965AACFB49DD2F /* PaddingLabel.swift */; };
+		42CC7C97606B8A3199FE72A70A3FE47C /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471E763BC9AE74E487B50E18A6F519B7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47AE66FE2F4B1A2422339CB4003553DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4DCC3A1581EFC41C343D75A8337C48CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6B04C95B5828887C3B415CF7C2B400E7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD910412BA32BB7514F1E0CF0F83A8 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m */; };
+		746B37D5B7E96812D73F78F6224668E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		90360FD4DE93878655B3021C2EDEBB86 /* PaddingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE57320F3F44FC2513B81CFE2B3E78 /* PaddingLabel-dummy.m */; };
+		9A5D05E3F0D77698E86F7A183DDB2F66 /* Pods-PaddingLabelExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E2E89E9F06D5E3B8FE1D5D332E10F0 /* Pods-PaddingLabelExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8B8D22CF664CA6AF69BEA56BD5AD64 /* PaddingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62C4DD2C956116EA76AF6B1C927A772 /* PaddingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF87DB71E4ED7BE5C8D36B6D9B1E620 /* Pods-PaddingLabelExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D99ED0264A5A2143294D38E5BB8AD6E0 /* Pods-PaddingLabelExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5405C0856570D456E278F7E8859620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB424532B7FDE9C4B9C39ED06A6EF339;
+			remoteInfo = PaddingLabel;
+		};
+		BC1B71F432375A49C4D5742EB0EE0149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB424532B7FDE9C4B9C39ED06A6EF339;
+			remoteInfo = PaddingLabel;
+		};
+		D49EA4A64C62CA7EA195BC515371BCF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B9CB63FBB0C034B5920F7141AC9E99;
+			remoteInfo = "Pods-PaddingLabelExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E21AF42C826C36CDF191BA4EB05F2D /* Pods_PaddingLabelExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaddingLabelExample.framework; path = "Pods-PaddingLabelExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15046F1F7249B6201CBF9FE5BA79EDE7 /* Pods-PaddingLabelExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExample.release.xcconfig"; sourceTree = "<group>"; };
+		1641EE138040676E091F7A66A80455A2 /* Pods-PaddingLabelExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaddingLabelExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		186363E7AA5551A447CCD9F2CBB3EA04 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		27E5104FA1C92385BEE5714941D7F3BB /* Pods-PaddingLabelExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaddingLabelExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31E2E89E9F06D5E3B8FE1D5D332E10F0 /* Pods-PaddingLabelExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaddingLabelExample-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32BEEA6C015FD436D4F43A34A6BE60C7 /* Pods_PaddingLabelExample_PaddingLabelExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaddingLabelExample_PaddingLabelExampleUITests.framework; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CEC062DF3769511D8D0B85614DE7E3 /* Pods-PaddingLabelExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaddingLabelExampleTests.modulemap"; sourceTree = "<group>"; };
+		40437FCFBEFDE921BD80D5219676A49E /* PaddingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PaddingLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		414CB2A83F919E697070DE2460B67FC2 /* Pods-PaddingLabelExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExample.debug.xcconfig"; sourceTree = "<group>"; };
+		44A3F3C3924287C1FFA9B47D6E0C30F3 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		46F3100F884C9900FD56EB570CE05172 /* Pods_PaddingLabelExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaddingLabelExampleTests.framework; path = "Pods-PaddingLabelExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		470BEA8512A4B2DD971412ECCC418814 /* Pods-PaddingLabelExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		471E763BC9AE74E487B50E18A6F519B7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		4B221FDADB860E62E14A8FF4BF50FEF6 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		521951AD2642164ADDAE43BD8C4617C4 /* PaddingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaddingLabel-Info.plist"; sourceTree = "<group>"; };
+		5C71A2BED8BAC5CAA0007D934D57FC92 /* Pods-PaddingLabelExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		603B6A4A4E6E4F0368A537860499469E /* PaddingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaddingLabel.xcconfig; sourceTree = "<group>"; };
+		63DD910412BA32BB7514F1E0CF0F83A8 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		66EE01D894F95AF0A2E9780C2F76F14C /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests.modulemap"; sourceTree = "<group>"; };
+		711180280E7E1099485377C263600E5B /* PaddingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaddingLabel.modulemap; sourceTree = "<group>"; };
+		74AB3DB5622FFD5A8B4A58E37444B521 /* Pods-PaddingLabelExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DBBD6F45F26B581F7AD36D73FAB46CB /* PaddingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaddingLabel-prefix.pch"; sourceTree = "<group>"; };
+		83B8F3807AF1F47E940FEB6EDD53FB0F /* Pods-PaddingLabelExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaddingLabelExample-dummy.m"; sourceTree = "<group>"; };
+		884AF8F05B185D2379C4FA4D62EB0BBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9042090977DB97890B8CB8CFDF8DD064 /* Pods-PaddingLabelExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaddingLabelExample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07F23D04B8BA61076702BE4EB8D71EA /* PaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaddingLabel.framework; path = PaddingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62C4DD2C956116EA76AF6B1C927A772 /* PaddingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaddingLabel-umbrella.h"; sourceTree = "<group>"; };
+		A90EB2BB5A3F3A2C366B26B44DA70F26 /* Pods-PaddingLabelExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADAC06AA4CB1DD779D5A7BB9CD426802 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B836644C43AA7D66DBA1748D69F6843A /* Pods-PaddingLabelExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BC8A043F52372A6D33FBBCC811C4A070 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2AF14AE23E5BC325D8F9286A7374286 /* Pods-PaddingLabelExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaddingLabelExample-frameworks.sh"; sourceTree = "<group>"; };
+		D99ED0264A5A2143294D38E5BB8AD6E0 /* Pods-PaddingLabelExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaddingLabelExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		DB66AF150D91F7C24872AFE5252DD7D7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3213DF0CD4DE5902217158FADB27202 /* Pods-PaddingLabelExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaddingLabelExample-Info.plist"; sourceTree = "<group>"; };
+		E80E03E1014A1466E492A3EA3233366A /* Pods-PaddingLabelExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaddingLabelExampleTests-dummy.m"; sourceTree = "<group>"; };
+		EA66C9CFC398C532BA965AACFB49DD2F /* PaddingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingLabel.swift; path = PaddingLabel/PaddingLabel.swift; sourceTree = "<group>"; };
+		EDF075440F1EA1B4F2F82F9D3B1F03FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F8FE57320F3F44FC2513B81CFE2B3E78 /* PaddingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaddingLabel-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EA2E7DEB1F4C992D045B05679A7617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCC3A1581EFC41C343D75A8337C48CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEF736AB854DE097B882717C461F73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746B37D5B7E96812D73F78F6224668E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA8CC35E47F0082C54BB05B843A384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE66FE2F4B1A2422339CB4003553DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69C0746C8761F81DBD0EE0BF5D10997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899001D2C9CAC97EDFB9D843A1A7FFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1097CA194672DC6E4FB3F6F5E9E4532D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6AAD79F2D13249980A9A6D414238AF /* Pods-PaddingLabelExample */,
+				88C9734AE8DED561414BBDFCE8187CE1 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests */,
+				F8FE50D455B3D1D9E2E19CC61B0B00F8 /* Pods-PaddingLabelExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30FAB0DBFB7D9195ADB92D244612EDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07F23D04B8BA61076702BE4EB8D71EA /* PaddingLabel.framework */,
+				08E21AF42C826C36CDF191BA4EB05F2D /* Pods_PaddingLabelExample.framework */,
+				32BEEA6C015FD436D4F43A34A6BE60C7 /* Pods_PaddingLabelExample_PaddingLabelExampleUITests.framework */,
+				46F3100F884C9900FD56EB570CE05172 /* Pods_PaddingLabelExampleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520CC970A10B84CB0800676DDDD9A6CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7497749AB1244495DADDED57A06289B /* PaddingLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		888DC29D9290A8A1DA11C1AAA5FBD7CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				884AF8F05B185D2379C4FA4D62EB0BBD /* LICENSE */,
+				40437FCFBEFDE921BD80D5219676A49E /* PaddingLabel.podspec */,
+				EDF075440F1EA1B4F2F82F9D3B1F03FF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88C9734AE8DED561414BBDFCE8187CE1 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66EE01D894F95AF0A2E9780C2F76F14C /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.modulemap */,
+				ADAC06AA4CB1DD779D5A7BB9CD426802 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.markdown */,
+				DB66AF150D91F7C24872AFE5252DD7D7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-acknowledgements.plist */,
+				63DD910412BA32BB7514F1E0CF0F83A8 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m */,
+				186363E7AA5551A447CCD9F2CBB3EA04 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-frameworks.sh */,
+				44A3F3C3924287C1FFA9B47D6E0C30F3 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-Info.plist */,
+				471E763BC9AE74E487B50E18A6F519B7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h */,
+				BC8A043F52372A6D33FBBCC811C4A070 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.debug.xcconfig */,
+				4B221FDADB860E62E14A8FF4BF50FEF6 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-PaddingLabelExample-PaddingLabelExampleUITests";
+			path = "Target Support Files/Pods-PaddingLabelExample-PaddingLabelExampleUITests";
+			sourceTree = "<group>";
+		};
+		9A19DDBED6B3D1875DD674374021093D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				711180280E7E1099485377C263600E5B /* PaddingLabel.modulemap */,
+				603B6A4A4E6E4F0368A537860499469E /* PaddingLabel.xcconfig */,
+				F8FE57320F3F44FC2513B81CFE2B3E78 /* PaddingLabel-dummy.m */,
+				521951AD2642164ADDAE43BD8C4617C4 /* PaddingLabel-Info.plist */,
+				7DBBD6F45F26B581F7AD36D73FAB46CB /* PaddingLabel-prefix.pch */,
+				A62C4DD2C956116EA76AF6B1C927A772 /* PaddingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "PaddingLabelExample/Pods/Target Support Files/PaddingLabel";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7497749AB1244495DADDED57A06289B /* PaddingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EA66C9CFC398C532BA965AACFB49DD2F /* PaddingLabel.swift */,
+				888DC29D9290A8A1DA11C1AAA5FBD7CE /* Pod */,
+				9A19DDBED6B3D1875DD674374021093D /* Support Files */,
+			);
+			name = PaddingLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				520CC970A10B84CB0800676DDDD9A6CD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				30FAB0DBFB7D9195ADB92D244612EDF3 /* Products */,
+				1097CA194672DC6E4FB3F6F5E9E4532D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6AAD79F2D13249980A9A6D414238AF /* Pods-PaddingLabelExample */ = {
+			isa = PBXGroup;
+			children = (
+				9042090977DB97890B8CB8CFDF8DD064 /* Pods-PaddingLabelExample.modulemap */,
+				27E5104FA1C92385BEE5714941D7F3BB /* Pods-PaddingLabelExample-acknowledgements.markdown */,
+				5C71A2BED8BAC5CAA0007D934D57FC92 /* Pods-PaddingLabelExample-acknowledgements.plist */,
+				83B8F3807AF1F47E940FEB6EDD53FB0F /* Pods-PaddingLabelExample-dummy.m */,
+				D2AF14AE23E5BC325D8F9286A7374286 /* Pods-PaddingLabelExample-frameworks.sh */,
+				E3213DF0CD4DE5902217158FADB27202 /* Pods-PaddingLabelExample-Info.plist */,
+				31E2E89E9F06D5E3B8FE1D5D332E10F0 /* Pods-PaddingLabelExample-umbrella.h */,
+				414CB2A83F919E697070DE2460B67FC2 /* Pods-PaddingLabelExample.debug.xcconfig */,
+				15046F1F7249B6201CBF9FE5BA79EDE7 /* Pods-PaddingLabelExample.release.xcconfig */,
+			);
+			name = "Pods-PaddingLabelExample";
+			path = "Target Support Files/Pods-PaddingLabelExample";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8FE50D455B3D1D9E2E19CC61B0B00F8 /* Pods-PaddingLabelExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				32CEC062DF3769511D8D0B85614DE7E3 /* Pods-PaddingLabelExampleTests.modulemap */,
+				1641EE138040676E091F7A66A80455A2 /* Pods-PaddingLabelExampleTests-acknowledgements.markdown */,
+				74AB3DB5622FFD5A8B4A58E37444B521 /* Pods-PaddingLabelExampleTests-acknowledgements.plist */,
+				E80E03E1014A1466E492A3EA3233366A /* Pods-PaddingLabelExampleTests-dummy.m */,
+				B836644C43AA7D66DBA1748D69F6843A /* Pods-PaddingLabelExampleTests-Info.plist */,
+				D99ED0264A5A2143294D38E5BB8AD6E0 /* Pods-PaddingLabelExampleTests-umbrella.h */,
+				A90EB2BB5A3F3A2C366B26B44DA70F26 /* Pods-PaddingLabelExampleTests.debug.xcconfig */,
+				470BEA8512A4B2DD971412ECCC418814 /* Pods-PaddingLabelExampleTests.release.xcconfig */,
+			);
+			name = "Pods-PaddingLabelExampleTests";
+			path = "Target Support Files/Pods-PaddingLabelExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47087768450DF02C2FC3F333992E3D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CC7C97606B8A3199FE72A70A3FE47C /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DD17D9B62DDF66E0D18FF2E6E34514 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B8D22CF664CA6AF69BEA56BD5AD64 /* PaddingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE3C75B84B80F4EC565ABF0EE10A6B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF87DB71E4ED7BE5C8D36B6D9B1E620 /* Pods-PaddingLabelExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1438CB9EFFFD2E41B6C2D79BD109D95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5D05E3F0D77698E86F7A183DDB2F66 /* Pods-PaddingLabelExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0710008C7FF87DB46227E1D985277289 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0E07BA970C2F18D879DFE88E9B1274 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExample-PaddingLabelExampleUITests" */;
+			buildPhases = (
+				47087768450DF02C2FC3F333992E3D28 /* Headers */,
+				83BC964AABF29AA16556DBAB7DC6AC12 /* Sources */,
+				DBCA8CC35E47F0082C54BB05B843A384 /* Frameworks */,
+				EF23999B716461C11D9F346DDC571DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E0A3129751241C8CDC68B1A9193882 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaddingLabelExample-PaddingLabelExampleUITests";
+			productName = "Pods-PaddingLabelExample-PaddingLabelExampleUITests";
+			productReference = 32BEEA6C015FD436D4F43A34A6BE60C7 /* Pods_PaddingLabelExample_PaddingLabelExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36B9CB63FBB0C034B5920F7141AC9E99 /* Pods-PaddingLabelExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2E50BC5690AA690F269ED7F67C6FA8 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExample" */;
+			buildPhases = (
+				D1438CB9EFFFD2E41B6C2D79BD109D95 /* Headers */,
+				0923DC31D568711FFECA2CF0CBE50917 /* Sources */,
+				64EA2E7DEB1F4C992D045B05679A7617 /* Frameworks */,
+				8AB5FE717C34AD1FAB8DF057C70827F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3100BBF255E4DD235D0DA2377DD8279B /* PBXTargetDependency */,
+			);
+			name = "Pods-PaddingLabelExample";
+			productName = "Pods-PaddingLabelExample";
+			productReference = 08E21AF42C826C36CDF191BA4EB05F2D /* Pods_PaddingLabelExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C0FA50A3008C69BD5CE8829DBCE30D9 /* Pods-PaddingLabelExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA911AE0F49E64EBCBEC9305D2C9B97 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExampleTests" */;
+			buildPhases = (
+				8CE3C75B84B80F4EC565ABF0EE10A6B6 /* Headers */,
+				0ECC9AA75DD8EFABB883D3F79D52A89E /* Sources */,
+				E69C0746C8761F81DBD0EE0BF5D10997 /* Frameworks */,
+				BE91F129591FCCC70E2EC4C72E44AAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1B20C7A085681DE868A2937857233D /* PBXTargetDependency */,
+			);
+			name = "Pods-PaddingLabelExampleTests";
+			productName = "Pods-PaddingLabelExampleTests";
+			productReference = 46F3100F884C9900FD56EB570CE05172 /* Pods_PaddingLabelExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB424532B7FDE9C4B9C39ED06A6EF339 /* PaddingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB168C3FEA53D7F44CC9E0974582A338 /* Build configuration list for PBXNativeTarget "PaddingLabel" */;
+			buildPhases = (
+				62DD17D9B62DDF66E0D18FF2E6E34514 /* Headers */,
+				D4D4627FBECAFE2BC9B3E161B48D629C /* Sources */,
+				9EEF736AB854DE097B882717C461F73C /* Frameworks */,
+				92021B5B87D57789475128846ED61460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaddingLabel;
+			productName = PaddingLabel;
+			productReference = A07F23D04B8BA61076702BE4EB8D71EA /* PaddingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 30FAB0DBFB7D9195ADB92D244612EDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB424532B7FDE9C4B9C39ED06A6EF339 /* PaddingLabel */,
+				36B9CB63FBB0C034B5920F7141AC9E99 /* Pods-PaddingLabelExample */,
+				0710008C7FF87DB46227E1D985277289 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests */,
+				5C0FA50A3008C69BD5CE8829DBCE30D9 /* Pods-PaddingLabelExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB5FE717C34AD1FAB8DF057C70827F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92021B5B87D57789475128846ED61460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE91F129591FCCC70E2EC4C72E44AAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF23999B716461C11D9F346DDC571DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0923DC31D568711FFECA2CF0CBE50917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E4AD730276ECCCA27E85509630BC05 /* Pods-PaddingLabelExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECC9AA75DD8EFABB883D3F79D52A89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048D5828BFE08B1B6F499F2F8AB508DA /* Pods-PaddingLabelExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC964AABF29AA16556DBAB7DC6AC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B04C95B5828887C3B415CF7C2B400E7 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D4627FBECAFE2BC9B3E161B48D629C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90360FD4DE93878655B3021C2EDEBB86 /* PaddingLabel-dummy.m in Sources */,
+				3E5298FF9E3FA8B7E21AFE2EA0DD0611 /* PaddingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E0A3129751241C8CDC68B1A9193882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaddingLabel;
+			target = AB424532B7FDE9C4B9C39ED06A6EF339 /* PaddingLabel */;
+			targetProxy = 9B5405C0856570D456E278F7E8859620 /* PBXContainerItemProxy */;
+		};
+		3100BBF255E4DD235D0DA2377DD8279B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaddingLabel;
+			target = AB424532B7FDE9C4B9C39ED06A6EF339 /* PaddingLabel */;
+			targetProxy = BC1B71F432375A49C4D5742EB0EE0149 /* PBXContainerItemProxy */;
+		};
+		4D1B20C7A085681DE868A2937857233D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PaddingLabelExample";
+			target = 36B9CB63FBB0C034B5920F7141AC9E99 /* Pods-PaddingLabelExample */;
+			targetProxy = D49EA4A64C62CA7EA195BC515371BCF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1936530166A804EB2C491E96186B2474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B221FDADB860E62E14A8FF4BF50FEF6 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExample-PaddingLabelExampleUITests/Pods-PaddingLabelExample-PaddingLabelExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExample-PaddingLabelExampleUITests/Pods-PaddingLabelExample-PaddingLabelExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A789E7F086128A0CCC45D86562ACF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15046F1F7249B6201CBF9FE5BA79EDE7 /* Pods-PaddingLabelExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExample/Pods-PaddingLabelExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExample/Pods-PaddingLabelExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BC31D26214A211C35030BB40A36DEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603B6A4A4E6E4F0368A537860499469E /* PaddingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaddingLabel/PaddingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaddingLabel/PaddingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PaddingLabel/PaddingLabel.modulemap";
+				PRODUCT_MODULE_NAME = PaddingLabel;
+				PRODUCT_NAME = PaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E74D2E586D536F0C4EAED3DC56DD29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414CB2A83F919E697070DE2460B67FC2 /* Pods-PaddingLabelExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExample/Pods-PaddingLabelExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExample/Pods-PaddingLabelExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAE44A3AFFB2C7636C170364CE691CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470BEA8512A4B2DD971412ECCC418814 /* Pods-PaddingLabelExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExampleTests/Pods-PaddingLabelExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExampleTests/Pods-PaddingLabelExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD94A568459127041C9B85F8AF2AA000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90EB2BB5A3F3A2C366B26B44DA70F26 /* Pods-PaddingLabelExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExampleTests/Pods-PaddingLabelExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExampleTests/Pods-PaddingLabelExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF82C06D22BA4A6EFEAA112F0B4B2EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603B6A4A4E6E4F0368A537860499469E /* PaddingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaddingLabel/PaddingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaddingLabel/PaddingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PaddingLabel/PaddingLabel.modulemap";
+				PRODUCT_MODULE_NAME = PaddingLabel;
+				PRODUCT_NAME = PaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E65AD6B982CE7D4F4F701660E8771353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8A043F52372A6D33FBBCC811C4A070 /* Pods-PaddingLabelExample-PaddingLabelExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaddingLabelExample-PaddingLabelExampleUITests/Pods-PaddingLabelExample-PaddingLabelExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaddingLabelExample-PaddingLabelExampleUITests/Pods-PaddingLabelExample-PaddingLabelExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0E07BA970C2F18D879DFE88E9B1274 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExample-PaddingLabelExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65AD6B982CE7D4F4F701660E8771353 /* Debug */,
+				1936530166A804EB2C491E96186B2474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA911AE0F49E64EBCBEC9305D2C9B97 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD94A568459127041C9B85F8AF2AA000 /* Debug */,
+				AAE44A3AFFB2C7636C170364CE691CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2E50BC5690AA690F269ED7F67C6FA8 /* Build configuration list for PBXNativeTarget "Pods-PaddingLabelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E74D2E586D536F0C4EAED3DC56DD29E /* Debug */,
+				2A789E7F086128A0CCC45D86562ACF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB168C3FEA53D7F44CC9E0974582A338 /* Build configuration list for PBXNativeTarget "PaddingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC31D26214A211C35030BB40A36DEC4 /* Debug */,
+				AF82C06D22BA4A6EFEAA112F0B4B2EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

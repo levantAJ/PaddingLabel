@@ -1,0 +1,6 @@
+framework module Pods_PaddingLabelExample {
+  umbrella header "Pods-PaddingLabelExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

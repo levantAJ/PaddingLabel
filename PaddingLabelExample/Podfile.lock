@@ -1,0 +1,16 @@
+PODS:
+  - PaddingLabel (1.1)
+
+DEPENDENCIES:
+  - PaddingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  PaddingLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaddingLabel: 7a556f56bca9f4d7ab895405ea227f39287b6ff7
+
+PODFILE CHECKSUM: 14288449cc7e901e2b99c7080c09676a2d134d3b
+
+COCOAPODS: 1.8.4
