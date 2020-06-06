@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PaddingLabel'
-  s.version = '1.1'
+  s.version = '1.2'
   s.summary = 'Label with padding'
 
   s.description = <<-DESC
