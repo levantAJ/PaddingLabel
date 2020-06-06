@@ -9,6 +9,8 @@
 # PaddingLabel
 A label with padding for iOS
 
+<img width="484" alt="Screen Shot 2020-06-06 at 11 00 33" src="https://user-images.githubusercontent.com/6329656/83935710-3616c500-a7e6-11ea-8e7a-efd7dcc3a595.png">
+
 ## Requirements
 
 - iOS 8.0 or later
@@ -38,8 +40,12 @@ community can help you solve it.
 
 ## How To Use
 
+### Storyboard:
 - Change class of `UILabel` in your `storyboard`, `xib` to `PaddingLabel`.
-- Or programmatically:
+
+<img width="552" alt="Screen Shot 2020-06-06 at 11 08 58" src="https://user-images.githubusercontent.com/6329656/83935709-33b46b00-a7e6-11ea-89e3-572d89f895a9.png">
+
+### Programmatically:
 
 ```swift
 import PaddingLabel
